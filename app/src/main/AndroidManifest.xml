@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.ivettehernandez.virtual_shop">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.IMAGE_CAPTURE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:usesCleartextTraffic="true"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning">
+        <activity
+                android:name=".article.ArticleModify"
+                android:label="@string/title_activity_article_modify"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".DrawerActivity"
+                android:label="@string/title_activity_drawer"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".auth.LoginActivity">
+        </activity>
+        <activity
+                android:name=".MainEmptyActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".auth.RegisterActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".article.ArticleDetail"/>
+        <activity android:name=".user.UserDetail"/>
+        <activity android:name=".user.UserModify"/>
+    </application>
+
+</manifest>

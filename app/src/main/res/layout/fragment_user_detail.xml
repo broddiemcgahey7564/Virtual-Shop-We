@@ -1,0 +1,69 @@
+<LinearLayout
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/user_detail"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="32sp"
+            android:text= "@string/mi_perfil"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"/>
+
+
+    <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tv_email_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"/>
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <Button
+                android:text="@string/delete_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_delete_user"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/colorAccent"
+                tools:ignore="UnusedAttribute"/>
+
+        <Button
+                android:text="@string/modify_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_modify_user"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/colorPrimary"
+                tools:ignore="UnusedAttribute"/>
+    </LinearLayout>
+
+</LinearLayout>

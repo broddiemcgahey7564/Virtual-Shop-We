@@ -1,0 +1,88 @@
+<LinearLayout
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/article_add"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:text="Agregar articulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+            android:hint="Ingresa el nombre del articulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/et_artname"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+            android:hint="Ingresa la descripción del producto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/et_artdesc"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+            android:hint="Ingresa el precio del producto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/et_artprice"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:text="@string/take_photo_article"
+            android:id="@+id/btn_camera_article"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:backgroundTint="@color/colorPrimaryDark"/>
+
+    <ImageView
+            android:id="@+id/article_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/ic_photo_size_select_actual_black_24dp"
+            tools:ignore="VectorDrawableCompat"
+            android:layout_gravity="center"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:id="@+id/btn_article_add"
+            android:text="Agregar nuevo articulo"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+</LinearLayout>

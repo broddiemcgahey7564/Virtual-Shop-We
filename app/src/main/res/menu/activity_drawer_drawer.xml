@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <item android:title="@string/my_profile">
+        <menu>
+            <item
+                    android:id="@+id/nav_user_detail"
+                    android:icon="@drawable/ic_mood_black_24dp"
+                    android:title="@string/mi_perfil"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/articulos">
+        <menu>
+            <item
+                    android:id="@+id/nav_article_list"
+                    android:icon="@drawable/ic_view_list_black_24dp"
+                    android:title="@string/article_menu"/>
+            <item
+                    android:id="@+id/nav_add_article"
+                    android:icon="@drawable/ic_library_add_black_24dp"
+                    android:title="@string/add_article_menu"/>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/order">
+        <menu>
+            <item
+                    android:id="@+id/nav_order_list"
+                    android:icon="@drawable/ic_view_list_black_24dp"
+                    android:title="@string/order"/>
+
+        </menu>
+    </item>
+
+
+    <item android:title="@string/session">
+        <menu>
+            <item
+                    android:id="@+id/log_out"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/log_out"/>
+
+        </menu>
+    </item>
+
+</menu>

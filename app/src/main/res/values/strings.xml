@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Virtual Shop</string>
+    <string name="action_settings">Configuración</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="hint_email">Ingresa tu correo electronico</string>
+    <string name="hint_pass">Ingresa tu contraseña</string>
+    <string name="register">Registro</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_content">Descripción</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="invite_register">Si no tienes una cuenta, registrate.</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="select">Seleccionar</string>
+    <string name="galeria">Galería</string>
+    <string name="camara">Cámara</string>
+    <string name="title_article">Artículos</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="article_menu">Articulos</string>
+    <string name="add_article_menu">Agregar articulo</string>
+    <string name="take_photo_article">Toma una foto del articulo</string>
+    <string name="article_modify">Modificar</string>
+    <string name="article_delete">Eliminar</string>
+    <string name="title_activity_article_modify">ArticleModify</string>
+    <string name="article_detail">Detalle</string>
+    <string name="modificar_nuevo_articulo">Modificar Articulo</string>
+    <string name="session">Sesión</string>
+    <string name="log_out">Cerrar Sesión</string>
+    <string name="articulos">Articulos</string>
+    <string name="my_profile">Mi Perfil</string>
+    <string name="mi_perfil">Mi Perfil</string>
+    <string name="delete_profile">Eliminar Perfil</string>
+    <string name="modify_profile">Modificar Perfil</string>
+    <string name="order">Pedidos</string>
+    <string name="modify_myprofile">Modificar mi perfil</string>
+    <string name="insert_email">Ingresa tu e-mail</string>
+    <string name="new_psw">Ingresa tu nueva contraseña</string>
+    <string name="modificar_mi_perfil">Modificar mi perfil</string>
+</resources>
